@@ -31,32 +31,31 @@ function ternaryCheckCity(city){
 
 
 
-// let switchOnCharmForTip = (tip) => {
 
-// let generous = (tip >= 10)
-// let notAsGenerous = (tip >= 5 && tip <= 10)
-// let anythingElse = (tip <= 5)
 
-  // switch("tip"){
-  //     case tip = "generous":
-  //         return "Thank you so much."
-  //         break;
-  //     case tip = "notAsGenerous":
-  //         return "Thank you."
-  //         break;
-  //     default:
-  //         return "Bye."
-  //         break;
-  //       }
-  //     }
+  // function switchOnCharmFromTip(tip){
 
-  function switchOnCharmFromTip(tip){
+  // if (tip == "generous") {
+  //   return "Thank you so much."
+  // } else if (tip == "not as generous") {
+  //   return "Thank you."
+  // } else {
+  //   return "Bye."}
+  // }
 
-  if (tip == "generous") {
-    return "Thank you so much."
-  } else if (tip == "not as generous") {
-    return "Thank you."
-  } else {
-    return "Bye."}
+
+  let switchOnCharmFromTip = (tip) => {
+  
+
+      switch(tip){
+          case "generous":
+            return "Thank you so much."
+              break;
+          case "not as generous":
+              return "Thank you."
+              break;
+          default:
+              return "Bye."
+              break;
+            }
   }
-
